@@ -207,6 +207,8 @@ Item {
   }
 }
 ```
+two widgets are not shipped with the installation and you have to install them yourself: [widgets/moon.qml](widgets/moon.qml) and [widgets/lyrics.qml](widgets/lyrics.qml).
+copy them to `~/.config/rosewidgets/widgets`
 
 the card, padding, shadow and background are drawn for you. content is scaled to fit when the card is resized, unless you set `property bool responsive: true` to get the real size instead.
 
